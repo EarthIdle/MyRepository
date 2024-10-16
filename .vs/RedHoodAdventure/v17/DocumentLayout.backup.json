@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\UnityProject\\RedHoodAdventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|c:\\unityproject\\redhoodadventure\\assets\\scripts\\player\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\unityproject\\redhoodadventure\\assets\\hurtanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\hurtanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|C:\\UnityProject\\RedHoodAdventure\\assets\\scripts\\player\\physicscheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\physicscheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|C:\\UnityProject\\RedHoodAdventure\\assets\\scripts\\general\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|C:\\UnityProject\\RedHoodAdventure\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|C:\\UnityProject\\RedHoodAdventure\\assets\\scripts\\player\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|C:\\UnityProject\\RedHoodAdventure\\assets\\scripts\\general\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25CAB24-B45A-67C1-BBB7-27970B288DDB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerAnimation.cs",
-              "DocumentMoniker": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\Player\\PlayerAnimation.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAnimation.cs",
-              "ToolTip": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\Player\\PlayerAnimation.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAnimation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Title": "HurtAnimation.cs",
+              "DocumentMoniker": "C:\\UnityProject\\RedHoodAdventure\\Assets\\HurtAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\HurtAnimation.cs",
+              "ToolTip": "C:\\UnityProject\\RedHoodAdventure\\Assets\\HurtAnimation.cs",
+              "RelativeToolTip": "Assets\\HurtAnimation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:06:33.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PhysicsCheck.cs",
-              "DocumentMoniker": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\Player\\PhysicsCheck.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PhysicsCheck.cs",
-              "ToolTip": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\Player\\PhysicsCheck.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PhysicsCheck.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T11:26:46.771Z",
+              "WhenOpened": "2024-10-16T13:58:37.882Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +53,45 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
               "ToolTip": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAuwEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAiwG8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T07:08:07.266Z"
+              "WhenOpened": "2024-10-16T13:34:39.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerAnimation.cs",
+              "DocumentMoniker": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\Player\\PlayerAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAnimation.cs",
+              "ToolTip": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\Player\\PlayerAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAnimation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:37:19.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Attack.cs",
+              "DocumentMoniker": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\General\\Attack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\Attack.cs",
+              "ToolTip": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\General\\Attack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General\\Attack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:27:01.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\General\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\Character.cs",
+              "ToolTip": "C:\\UnityProject\\RedHoodAdventure\\Assets\\Scripts\\General\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General\\Character.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:13:46.316Z"
             }
           ]
         }

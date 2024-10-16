@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,6 +12,15 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private PhysicsCheck physicsCheck;
+
+    private int lastFaceDir = 1;
+    public bool isFliping;
+
+
+    [Header("基本信息")]
+    public bool isHurt = false;
+    public float hurtFroce;
+    public bool isDead;
 
     [Header("Move Info")]
     public float moveSpeed;
@@ -45,6 +55,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(!isHurt)
         Move();
         
     }
@@ -52,21 +63,60 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         rb.velocity = new Vector2(moveSpeed * inputDirection.x * Time.deltaTime, rb.velocity.y);
-        int faceDir = (int)transform.localScale.x;
+
+        int faceDir =(int) transform.localScale.x;
 
         if (inputDirection.x > 0)
+        {
             faceDir = 1;
+        }
         if (inputDirection.x < 0)
+        {
             faceDir = -1;
+        }
 
-        //Flip Body
+    //Flip Body
         transform.localScale = new Vector3(faceDir, 1, 1);
+
+        IsFliping(faceDir);
     }
 
     private void Jump(InputAction.CallbackContext context)
     {
         if(physicsCheck.isGround)
         rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);   //选择了Impluse施力模式
+    }
+
+    private void IsFliping(int currentFaceDir)
+    {
+        if (currentFaceDir != lastFaceDir)
+        {
+            isFliping = true;
+
+            // 更新上一次的朝向
+            lastFaceDir = currentFaceDir;
+        }
+        else
+        {
+            isFliping = false;
+        }
+        
+    }
+
+    public void GetHurt(Transform attacker)
+    {
+        isHurt = true;
+        rb.velocity = Vector2.zero;
+
+        Vector2 dir = new Vector2((transform.position.x - attacker.position.x), 0).normalized;
+
+        rb.AddForce(dir * hurtFroce,ForceMode2D.Impulse);
+    }
+
+    public void PlayerDead()
+    {
+        isDead = true;
+        inputControl.GamePlay.Disable();
     }
 
 }
